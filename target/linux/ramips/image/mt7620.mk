@@ -353,7 +353,7 @@ TARGET_DEVICES += domywifi_dm202
 
 define Device/domywifi_dm203
   SOC := mt7620a
-  IMAGE_SIZE := 16064k
+  IMAGE_SIZE := 32448k
   DEVICE_VENDOR := DomyWifi
   DEVICE_MODEL := DM203
   DEVICE_PACKAGES := kmod-mt76x0e kmod-sdhci-mt7620 kmod-usb2 kmod-usb-ohci
